@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(22, 51, 112);
+}
+
+div {
+    background-color:#7b1;
+}
+
+.container-navbar {
+    background-color:#fff;
+    width: 100%;
+}
+
+.ul-navbar {
+background-color:green;
+width: 500px;
+height: 100px;
+}
+
+.li-navbar {
+border:2px solid red;
+list-style-type: none;
+}
