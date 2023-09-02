@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Online Fashion In Indonesia | H&M Indonesia</title>
+  <style>
+    @import url('https://db.onlinewebfonts.com/c/70f3e46b3bb904260d1b1a6e0f2edf08?family=HM+Sans+Regular');
+    @import url('https://db.onlinewebfonts.com/c/4e6e57c2a88df92df489202798f556de?family=HM+Sans+Latin+Bold');
+    @import url('https://db.onlinewebfonts.com/c/09c8fb44d2c62d99647e4ce58736293e?family=HM+Sans+Latin+Regular');
+    @import url('https://db.onlinewebfonts.com/c/c352028deedbafe44d35574c0214fedf?family=HM+Sans+Latin+SemiBold');
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            hmSansRegular: "'HM Sans Regular', serif",
+            hmSansLatinBold: "'HM Sans Latin Bold', serif",
+            hmSansLatinRegular: "'HM Sans Latin Regular', serif",
+            hmSansLatinSemiBold: "'HM Sans Latin SemiBold', serif",
+          },
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="bg-[#faf9f8]">
+    <div class="flex justify-center mx-auto font-hmSansLatinBold">
+      <!-- Main section start -->
+      <section class="flex flex-col">
+        <h4 class="mb-4 font-bold text-xl">MASUK</h4>
+        <div class="flex">
+          <!-- left start -->
+          <div class="flex flex-col">
+            <h4 class="font-bold text-lg mb-5">PELANGGAN LAMA</h4>
+            <p class="mb-5 w-96 text-xs font-hmSansLatinRegular">Selamat datang kembali! Masuk ke akun Anda untuk
+              melakukan Pembayaran yang
+              lebih cepat</p>
+            <!-- form start -->
+            <form action="" class="flex flex-col justify-start w-96 mb-5 text-xs">
+              <div class="m-5 ml-0 flex justify-start flex-col">
+                <label for="email" class="mb-2 font-bold">*Email</label>
+                <input class="border-[1px] border-solid border-[#dadada] p-3 w-72 h-10 font-hmSansRegular" type="email"
+                  id="email" />
+              </div>
+              <div class="m-5 ml-0 flex justify-start flex-col">
+                <label for="password" class="mb-2 font-bold">*Kata Sandi</label>
+                <input class="border-[1px] border-solid border-[#dadada] p-3 w-72 h-10 font-hmSansRegular" type="password"
+                  id="password" />
+              </div>
+              <div class="flex flex-row m-3 ml-0">
+                <button class="bg-black text-white px-4 py-2 font-bold text-xs">MASUK</button>
+                <a class="self-center ml-2 text-xs font-hmSansLatinRegular" href="#">Lupa kata sandi anda?</a>
+              </div>
+            </form>
+            <!-- form end -->
+          </div>
+          <!-- left end -->
+          <!-- right start -->
+          <div class="flex flex-col ml-20">
+            <h4 class="text-lg mb-5">PELANGGAN BARU</h4>
+            <div class="mb-10 w-64 text-xs font-hmSansLatinRegular">
+              <p>Buat akun untuk berbelanja lebih lancar dan mudah!</p>
+            </div>
+            <button class="border-2 border-solid border-[#222] w-auto"><a class="text-xs text-[#1a1a1a] "
+                href="register.html">BERGABUNGLAH DENGAN<br>KAMI</a>
+            </button>
+            <!-- right section end -->
+          </div>
+          <!-- right end -->
+        </div>
+      </section>
+      <!-- Main section end -->
+    </div>
+  </div>
+</body>
+
+</html>
